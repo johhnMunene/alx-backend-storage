@@ -1,0 +1,4 @@
+ #!/usr/bin/env python3
+//script that lists all documents in the collection school
+
+db.school.runcommand({})
