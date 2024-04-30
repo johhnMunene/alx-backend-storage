@@ -1,10 +1,15 @@
 #!/usr/bin/env python3
-
 """
-function that lists all documents in a collection:
-
-    Prototype: def list_all(mongo_collection):
+List all documents in Python
 """
+
+
 def list_all(mongo_collection):
-    document = mongo_collection.find()
-    return(mongo_collection)
+    """
+    lists all documents in a collection
+
+    :param mongo_collection:
+    :return:
+    """
+    documents = mongo_collection.find()
+    return documents
