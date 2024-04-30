@@ -2,6 +2,5 @@
 //script that inserts a document in the collection school:
 //attributes name :"Holberton school" 
 
-db.school.insertmany([
-{name : “Holberton school”}
-])
+db.school.insert({name : “Holberton school”}
+)
