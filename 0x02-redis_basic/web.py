@@ -11,7 +11,6 @@ redis = redis.Redis()
 
 def wrap_requests(fn: Callable) -> Callable:
     """ Decorator wrapper """
-
     @wraps(fn)
     def wrapper(url):
         """ Wrapper for decorator guy """
